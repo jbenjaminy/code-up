@@ -1,7 +1,7 @@
 {
   "name": "code-up",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your programming questions answered in real-time by self-identified language or framework experts in 1-on-1 chat rooms that are seamlessly integrated with a reactive collaborative code editor.",
   "engines": {
     "node": "6.4.0"
   },
@@ -28,18 +28,17 @@
     "type": "git",
     "url": "git+https://github.com/seanjun21/codeup.git"
   },
-  "author": "",
+  "author": "Ben Young, Sean Jun, Joe Seago, and Alex Bang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/seanjun21/code-up/issues"
   },
-  "homepage": "https://github.com/seanjun21/code-up#readme",
+  "homepage": "http://code-up.jbenjaminy.com",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "http-server": "^0.9.0",
     "knex": "^0.12.1",
-    "less": "^2.7.1",
     "moment": "^2.15.1",
     "pg": "^6.1.0",
     "react": "^15.3.2",
@@ -58,6 +57,7 @@
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
     "chokidar-cli": "^1.2.0",
+    "less": "^2.7.1",
     "webpack": "^1.13.2"
   }
 }
