@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import UserName from './user-name';
-import {Router, Route, IndexRoute, hashHistory, Link} from 'react-router';
+import {Router, Route, IndexRoute, browserHistory, Link} from 'react-router';
 
 function NavBar () {
   return (

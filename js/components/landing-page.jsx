@@ -2,7 +2,7 @@
 
 import React from 'react'
 import {connect} from 'react-redux'
-import {hashHistory} from 'react-router'
+import {browserHistory} from 'react-router'
 import TagsSearchBar from './tags-search-bar'
 import tagsArr from '../tags-arr'
 import moment from 'moment'
@@ -27,7 +27,7 @@ class LandingPage extends React.Component {
 
     componentWillReceiveProps(nextProps) {
         if (nextProps.currentQuestion.questionID !== "") {
-            hashHistory.push(`/room/${nextProps.currentQuestion.questionID}`);
+            browserHistory.push(`/room/${nextProps.currentQuestion.questionID}`);
         }
     }
 

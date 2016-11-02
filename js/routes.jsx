@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router, Route, IndexRoute, hashHistory} from 'react-router';
+import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import LandingPage from './components/landing-page';
 import ChatroomPage from './components/chatroom-page';
 import NavBar from './components/nav-bar';
@@ -16,7 +16,7 @@ let App = (props) => {
 }
 
 const routes = (
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={LandingPage} />
       <Route path="/room/:questionID">
